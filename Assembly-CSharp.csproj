@@ -82,6 +82,7 @@
     <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Modifiers\TextureMask.cs" />
     <Compile Include="Assets\Samples\Splines\2.5.2\Spline Examples (requires Shader Graph package)\Runtime\SplineCommonAPI.cs" />
     <Compile Include="Assets\ProceduralTerrainPainter\Runtime\Attributes.cs" />
+    <Compile Include="Assets\CC_Demo\BleApi.cs" />
     <Compile Include="Assets\Simple Bicycle Physics\Scripts\SuspensionManager.cs" />
     <Compile Include="Assets\Samples\Splines\2.5.2\Spline Examples (requires Shader Graph package)\Runtime\AnimateCarAlongSpline.cs" />
     <Compile Include="Assets\Samples\Splines\2.5.2\Spline Examples (requires Shader Graph package)\Runtime\ItemPickup.cs" />
@@ -96,6 +97,7 @@
     <Compile Include="Assets\Samples\Splines\2.5.2\Spline Examples (requires Shader Graph package)\Runtime\SplineRenderer.cs" />
     <Compile Include="Assets\HDRPResource\Scripts\SceneAnnotation.cs" />
     <Compile Include="Assets\Samples\Splines\2.5.2\Spline Examples (requires Shader Graph package)\Runtime\CameraPathExample.cs" />
+    <Compile Include="Assets\CC_Demo\BleControl.cs" />
     <Compile Include="Assets\Simple Bicycle Physics\Scripts\PerfectMouseLook.cs" />
     <Compile Include="Assets\ProceduralTerrainPainter\Runtime\TerrainPainter.cs" />
     <Compile Include="Assets\ProceduralTerrainPainter\Runtime\TerrainChangeListener.cs" />
@@ -111,6 +113,7 @@
     <None Include="Assets\Simple Bicycle Physics\Scenes\WayPoint Bicycle Setup\Waypoint Setup ReadMe.txt" />
     <None Include="Assets\Simple Bicycle Physics\Scenes\Freestyle Setup\StuntMode ReadMe.txt" />
     <None Include="Assets\Simple Bicycle Physics\Instructions.txt" />
+    <None Include="Assets\BleWinrtDll.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
