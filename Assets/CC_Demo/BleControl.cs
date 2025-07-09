@@ -11,8 +11,11 @@ public class BleControl : MonoBehaviour
     private BleApi.ScanStatus scan_status;
     private Button StartScaningBtn;
 
+    //用于查找，是所有设备的dic
     Dictionary<string, Dictionary<string, string>> Scaning_devicesDic = new Dictionary<string, Dictionary<string, string>>();
+    //玩家可选中的设备名称List
     List<string> Select_deviceList = new List<string>();
+    //读取json的List
     List<string> AllInJson_deviceList = new List<string>();
     private void Start()
     {
